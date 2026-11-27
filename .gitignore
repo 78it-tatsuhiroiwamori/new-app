@@ -1,9 +1,16 @@
 # Claude Code の個人用設定（チーム共有は .claude/settings.json）
 .claude/settings.local.json
+CLAUDE.local.md
 
-# 秘密情報
+# 秘密情報（.claude/settings.json の Read deny と揃える）
 .env
 .env.*
 !.env.example
 *.pem
 *.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets/
+credentials*.json
